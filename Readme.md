@@ -7,7 +7,7 @@ By Ga-yana
 
 ## A static Dance homepage.
 
-### Click [here]() to see it live
+### Click [here](https://dancehangout.netlify.app/) to see it live
 
 ![Homepage](./Images/Screenshot%202022-08-05%20at%2011.27.17%20PM.png)
 
