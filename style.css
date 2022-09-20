@@ -16,15 +16,18 @@ body{
 
 navbar{
     
-    height: 12vh;
+    padding-top:30px ;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    
+    align-items: center;
+    margin: 0 70px 0 70px;
+}
+.specs{
+    display: none;
 }
 .logo img{
     width:90px;
-    margin-left: 70px;
 }
 .h-line{
    border-top: 1px solid #333333; 
@@ -179,4 +182,61 @@ color: #333333;
     position: absolute;
     left: 43px;
     top: 4px;
+}
+
+
+@media screen and (max-width:768px) {
+    body{
+        background: #f6f2f0 ;
+        background-repeat: no-repeat;
+        background-size:170%;
+    }
+    navbar{
+        margin: 0 50px 0 50px;
+    }
+    .nav-lists{
+      margin-left: 0;
+      gap: 55px;
+    }
+    .nav-list{
+        font-size: 16px;
+    }
+    .specs{
+        display: block;
+    }
+    .top-flex{
+        margin-left: 60px;
+        margin-top: 90px;
+    }
+    .bottom-flex{
+
+        margin-top: 220px;
+        margin-left: 60px;
+    }
+    .icons{
+       margin-left: 70px;
+    }
+    .types{
+        font-size: 20px;
+
+    }
+    .curly{
+        margin-left: 100px;
+    }
+    .line-dot{
+        left:50px;
+    }
+    .fa-greater-than{
+        left: 890px;
+    }
+    .package-btn{
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .curly-girl{
+        width: 550px;
+    }
+    .arrow{
+        margin-left: 120px;
+    }
 }

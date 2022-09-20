@@ -6,6 +6,7 @@ By Ga-yana
 #
 
 ## A static Dance homepage.
+Tablet and mobile(at 425px) responsive too.
 
 ### Click [here](https://dancehangout.netlify.app/) to see it live
 
